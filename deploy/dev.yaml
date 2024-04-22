@@ -6,5 +6,5 @@ metadata:
   labels: {}
 description: staging
 gke:
-  cluster: projects/sonic-wonder-420714/locations/us-central1-c/clusters/staging
+  cluster: projects/sonic-wonder-420714/locations/us-central1/clusters/staging
 
