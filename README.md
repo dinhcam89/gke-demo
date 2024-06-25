@@ -26,9 +26,7 @@ This CI/CD pipeline leverages several key components:
 - Cloud Deploy: A service for continuous delivery that automates the deployment of containerized applications to Google Kubernetes Engine and other platforms.
 - GitHub: A popular version control platform where developers collaborate, manage, and version control their codebase.
 
-## Solution
-
-We are going to implement the solution using the following steps to implement the CI/CD pipeline for deploying applications on GKE:
+## Project Implementation
 
 1. Create two simple Flask applications (app1 & app2).
 2. Set up a GitHub repository and push the application code.
@@ -39,7 +37,5 @@ We are going to implement the solution using the following steps to implement th
 7. Implement the necessary code to define the Cloud Deploy pipeline and targets for both dev-cluster and prod-cluster.
 8. Push the updated code to the GitHub repository, triggering the Cloud Build and Cloud Deploy processes.
 
-   If you encounter any confusion, please refer to the [Video](https://youtu.be/L_1qbt-Iii0?feature=shared)
- linked at the beginning of the blog.
 
 
